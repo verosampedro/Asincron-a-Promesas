@@ -28,8 +28,6 @@ La promesa no se cumple (promesa rechazada).
 
 La promesa se queda en un estado incierto indefinidamente (promesa pendiente).
 
-Las promesas en Javascript se representan a través de un , y cada promesa estará en un estado concreto.
-
 La forma general de consumir una promesa es utilizando el .then() con un sólo parámetro, puesto que muchas veces lo único que nos interesa es realizar una acción cuando la promesa se cumpla.
 
 Se puede crear una promesa con el constructor promise y pasándole una función con dos parámetros: resolve y reject, que nos deja decirle si ha sido resuelta o rechazada. const promise = new Promise((resolve, reject) => const number = Math.) 

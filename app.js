@@ -18,11 +18,10 @@ async function readJSON() {
       console.log(item.title);
     });
 
-    console.log('Lectura y procesamiento completados correctamente.');
+    console.log('Lectura correcta.');
 
-    /* Si ocurre algún error durante la lectura del archivo o el análisis JSON, se imprime un mensaje de error en la consola */
   } catch (err) {
-    console.error('Error leyendo o procesando el archivo:', err);
+    console.error('Error leyendo el archivo:', err);
   }
 }
 
